@@ -80,7 +80,11 @@ Editor::Editor() :
   splitterHorz.setVisible(isVisible);
   controlPanel.setVisible(isVisible);
 
+    
+  grid.setSize(INT_MAX, INT_MAX);
   gridHolder.setViewedComponent(&grid, false);
+  gridHolder.setViewPosition(project.iLeftColumnVisible * kColumnWidth,
+                             project.getTopmostRowVisible() * kRowHeight);
 
   update();
 
@@ -302,7 +306,7 @@ void sower::Editor::scrolled(int iCol, int nCols, int iRow, int nRows) {
       project.setNumsRowVisible(nRows);
       gridHeader.repaint();
     }
-    MarkProjDirty();
+    if(project.flags & project.kOpened) MarkProjDirty();
   }
 }
 

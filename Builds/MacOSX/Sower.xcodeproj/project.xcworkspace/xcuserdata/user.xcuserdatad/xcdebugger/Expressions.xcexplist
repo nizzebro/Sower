@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "sower::Editor::createWindow():sower_mac.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "((NSView*)reaper)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "sower::Editor::createWindow():sower_editor.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "sower::Editor::resizeWindow(int, int):sower_editor.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "project">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "onSwellMessage(HWND__*, unsigned int, unsigned long, long):sower_mac.mm">
+      </ContextState>
+      <ContextState
+         contextName = "sower::Editor::ControlPanel::resized():sower_controlpanel.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "juce::Component::getWindowHandle() const:juce_Component.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "(NSView*)peer-&gt;view">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "sower::Editor::createTitledWindow():sower_mac.mm">
+      </ContextState>
+      <ContextState
+         contextName = "sower::Editor::dockWndProc(HWND__*, unsigned int, unsigned long, long):sower_mac.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "(NSView*)h">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SowerDockView swellCanPostMessage]:sower_mac.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_invalid">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "sower::Editor::updateGrid():sower_editor.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "project">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "juce::NSViewComponentPeer::getNativeHandle() const:juce_mac_NSViewComponentPeer.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "(NSView*)(view-&gt;_superview)">
+            </PersistentString>
+            <PersistentString
+               value = "view">
+            </PersistentString>
+            <PersistentString
+               value = "[((NSView*) view) superView]">
+            </PersistentString>
+            <PersistentString
+               value = "(NSView*)sower::reaper">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

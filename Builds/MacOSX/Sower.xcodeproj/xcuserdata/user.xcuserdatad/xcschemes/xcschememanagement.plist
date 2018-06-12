@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>reaper_sower copy 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>reaper_sower copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>reaper_sower.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>reaper_sower_debug copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2353B4CD54464ABD2C973B95</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CEFD749220CB28B4001FA968</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CEFD74BD20CB296B001FA968</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CEFD74E920CB3275001FA968</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CEFD751520CB771C001FA968</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

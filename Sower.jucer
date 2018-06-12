@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="R4xLHQ" name="Sower" displaySplashScreen="1" reportAppUsage="1"
+              splashScreenColour="Dark" projectType="dll" version="2.0.0" bundleIdentifier="com.nizzebro.sower"
+              includeBinaryInAppConfig="1" cppLanguageStandard="11" companyCopyright="nizzebro"
+              jucerVersion="5.2.0" companyName="nizzebro">
+  <MAINGROUP id="m39AFP" name="Sower">
+    <GROUP id="{0D52B094-9133-C813-5DC5-41F05B048DF6}" name="Source">
+      <GROUP id="{3F36A07C-821F-CA83-4D41-C01455CB8415}" name="h">
+        <FILE id="i50IYy" name="inifileparser.h" compile="0" resource="0" file="Source/inifileparser.h"/>
+        <FILE id="ezRVfd" name="sower.h" compile="0" resource="0" file="Source/sower.h"/>
+        <FILE id="OlIFu2" name="sower_editor.h" compile="0" resource="0" file="Source/sower_editor.h"/>
+        <FILE id="jUsbI8" name="sower_skin.h" compile="0" resource="0" file="Source/sower_skin.h"/>
+      </GROUP>
+      <GROUP id="{3884C093-8607-606E-F4A1-75D74E247798}" name="cpp">
+        <FILE id="tQabZs" name="sower_optionsdialog.cpp" compile="1" resource="0"
+              file="Source/sower_optionsdialog.cpp"/>
+        <FILE id="FygwcT" name="sower_notedialog.cpp" compile="1" resource="0"
+              file="Source/sower_notedialog.cpp"/>
+        <FILE id="yGuCZs" name="sower_midiprocdialog.cpp" compile="1" resource="0"
+              file="Source/sower_midiprocdialog.cpp"/>
+        <FILE id="k0QuCd" name="sower_channeldialog.cpp" compile="1" resource="0"
+              file="Source/sower_channeldialog.cpp"/>
+        <FILE id="mHyN0w" name="sower_controlpanel.cpp" compile="1" resource="0"
+              file="Source/sower_controlpanel.cpp"/>
+        <FILE id="I8WcBU" name="sower_grid.cpp" compile="1" resource="0" file="Source/sower_grid.cpp"/>
+        <FILE id="PIVZti" name="sower_skin.cpp" compile="1" resource="0" file="Source/sower_skin.cpp"/>
+        <FILE id="zFMlXj" name="sower_splitter.cpp" compile="1" resource="0"
+              file="Source/sower_splitter.cpp"/>
+        <FILE id="rRLttp" name="sower_toolbar.cpp" compile="1" resource="0"
+              file="Source/sower_toolbar.cpp"/>
+        <FILE id="xpoyNT" name="sower_editor.cpp" compile="1" resource="0"
+              file="Source/sower_editor.cpp"/>
+        <FILE id="e78C2J" name="reaper_sower.cpp" compile="1" resource="0"
+              file="Source/reaper_sower.cpp"/>
+      </GROUP>
+      <GROUP id="{1183361D-F39A-1123-EB04-046544E5F608}" name="png">
+        <FILE id="LxIU8X" name="arrDown.png" compile="0" resource="1" file="Source/Skin/arrDown.png"/>
+        <FILE id="IgRro5" name="arrLeft.png" compile="0" resource="1" file="Source/Skin/arrLeft.png"/>
+        <FILE id="XMMncn" name="arrRight.png" compile="0" resource="1" file="Source/Skin/arrRight.png"/>
+        <FILE id="l7OqmK" name="btnDownMask.png" compile="0" resource="1" file="Source/Skin/btnDownMask.png"/>
+        <FILE id="g0KWxW" name="btnHoverMask.png" compile="0" resource="1"
+              file="Source/Skin/btnHoverMask.png"/>
+        <FILE id="EgmnPg" name="cellOff1.png" compile="0" resource="1" file="Source/Skin/cellOff1.png"/>
+        <FILE id="VHF4Cz" name="cellOff2.png" compile="0" resource="1" file="Source/Skin/cellOff2.png"/>
+        <FILE id="BYQki6" name="cellOn1.png" compile="0" resource="1" file="Source/Skin/cellOn1.png"/>
+        <FILE id="tNbG6x" name="cellOn2.png" compile="0" resource="1" file="Source/Skin/cellOn2.png"/>
+        <FILE id="HjV1za" name="cellPlayMask.png" compile="0" resource="1"
+              file="Source/Skin/cellPlayMask.png"/>
+        <FILE id="TIaCOB" name="chn.png" compile="0" resource="1" file="Source/Skin/chn.png"/>
+        <FILE id="tv1p5Q" name="chnA.png" compile="0" resource="1" file="Source/Skin/chnA.png"/>
+        <FILE id="VtqFYd" name="chnLeft.png" compile="0" resource="1" file="Source/Skin/chnLeft.png"/>
+        <FILE id="qbYOfk" name="chnLeftA.png" compile="0" resource="1" file="Source/Skin/chnLeftA.png"/>
+        <FILE id="af5eye" name="chnSelOff.png" compile="0" resource="1" file="Source/Skin/chnSelOff.png"/>
+        <FILE id="sh0BcB" name="chnSelOffA.png" compile="0" resource="1" file="Source/Skin/chnSelOffA.png"/>
+        <FILE id="P5Cnw6" name="chnSelOn.png" compile="0" resource="1" file="Source/Skin/chnSelOn.png"/>
+        <FILE id="tacgZM" name="chnSelOnA.png" compile="0" resource="1" file="Source/Skin/chnSelOnA.png"/>
+        <FILE id="av8hBT" name="cpanelOff.png" compile="0" resource="1" file="Source/Skin/cpanelOff.png"/>
+        <FILE id="RPowP5" name="cpanelOn.png" compile="0" resource="1" file="Source/Skin/cpanelOn.png"/>
+        <FILE id="bWwHLt" name="loopOff.png" compile="0" resource="1" file="Source/Skin/loopOff.png"/>
+        <FILE id="wo9Dod" name="loopOn.png" compile="0" resource="1" file="Source/Skin/loopOn.png"/>
+        <FILE id="ssFuUQ" name="midiProcessor.png" compile="0" resource="1"
+              file="Source/Skin/midiProcessor.png"/>
+        <FILE id="OVk6lc" name="modeInsert.png" compile="0" resource="1" file="Source/Skin/modeInsert.png"/>
+        <FILE id="kwVjHr" name="modeStretch.png" compile="0" resource="1" file="Source/Skin/modeStretch.png"/>
+        <FILE id="KtU9QB" name="options.png" compile="0" resource="1" file="Source/Skin/options.png"/>
+        <FILE id="XTDKnG" name="paramBottom1.png" compile="0" resource="1"
+              file="Source/Skin/paramBottom1.png"/>
+        <FILE id="gqD9fr" name="paramBottom2.png" compile="0" resource="1"
+              file="Source/Skin/paramBottom2.png"/>
+        <FILE id="ytXi3P" name="paramCellOff1.png" compile="0" resource="1"
+              file="Source/Skin/paramCellOff1.png"/>
+        <FILE id="Qa0PzQ" name="paramCellOff2.png" compile="0" resource="1"
+              file="Source/Skin/paramCellOff2.png"/>
+        <FILE id="z7qObW" name="paramCellRem1.png" compile="0" resource="1"
+              file="Source/Skin/paramCellRem1.png"/>
+        <FILE id="mlbi7Q" name="paramCellRem2.png" compile="0" resource="1"
+              file="Source/Skin/paramCellRem2.png"/>
+        <FILE id="VRwfQi" name="paramCellVal1.png" compile="0" resource="1"
+              file="Source/Skin/paramCellVal1.png"/>
+        <FILE id="X7OuZL" name="paramCellVal2.png" compile="0" resource="1"
+              file="Source/Skin/paramCellVal2.png"/>
+        <FILE id="bRUZPQ" name="paramTop1.png" compile="0" resource="1" file="Source/Skin/paramTop1.png"/>
+        <FILE id="FfXaE7" name="paramTop2.png" compile="0" resource="1" file="Source/Skin/paramTop2.png"/>
+        <FILE id="fRlm13" name="splitterH.png" compile="0" resource="1" file="Source/Skin/splitterH.png"/>
+        <FILE id="xpMTZy" name="splitterV.png" compile="0" resource="1" file="Source/Skin/splitterV.png"/>
+        <FILE id="ZTo5HR" name="tbr.png" compile="0" resource="1" file="Source/Skin/tbr.png"/>
+        <FILE id="eVncvX" name="tbrMenu.png" compile="0" resource="1" file="Source/Skin/tbrMenu.png"/>
+      </GROUP>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" enablePluginBinaryCopyStep="1" isDebug="1" optimisation="1"
+                       linkTimeOptimisation="0" targetName="NewProject"/>
+        <CONFIGURATION name="Release" enablePluginBinaryCopyStep="1" isDebug="0" optimisation="3"
+                       linkTimeOptimisation="1" targetName="NewProject"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2017 targetFolder="Builds/VisualStudio2017" windowsTargetPlatformVersion=""
+            toolset="v141">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       debugInformationFormat="ProgramDatabase" enablePluginBinaryCopyStep="0"
+                       linkTimeOptimisation="0" isDebug="1" optimisation="1" targetName="reaper_sower"
+                       binaryPath="C:\Program Files\REAPER (x64)\Plugins\"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       debugInformationFormat="ProgramDatabase" enablePluginBinaryCopyStep="0"
+                       linkTimeOptimisation="1" isDebug="0" optimisation="3" targetName="reaper_sower"
+                       binaryPath="C:\Program Files\REAPER (x64)\Plugins\"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>

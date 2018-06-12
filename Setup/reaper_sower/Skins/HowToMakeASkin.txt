@@ -1,0 +1,54 @@
+
+Create a folder inside the Skins directory (e.g. Skins/MySkinName)  with PNG  images with the same sizes and names as the original ones and INI file (e.g. MySkinName.ini) with optional values:
+
+backColor = 40 51 60	
+textColor = 214 190 255
+largeFont = Arial
+smallFont = Arial
+
+Image descriptions:
+
+ 
+    arrLeft 		toolbar  button 
+    arrRight		toolbar  button 
+    btnDownMask 	pressed toolbar button overlay mask; should be semi-transparent
+    btnHoverMask 	highlighted toolbar button overlay mask; should be semi-transparent
+    cellOff1 		note-off cell, downbeat
+    cellOff2 		note-off cell, upbeat
+    cellOn1 		note-on cell, downbeat
+    cellOn2 		note-on cell, upbeat
+    cellPlayMask 	playback animation  overlay mask; should be semi-transparent
+    chn 		inactive channel body  filler			
+    chnA 		active channel body  filler
+    chnLeft 		inactive channel left-side margin
+    chnLeftA 	active channel left-side margin
+    chnSelOff	active channel selector off
+    chnSelOffA 	inactive channel selector off
+    chnSelOn 	active channel selector on
+    chnSelOnA 	inactive channel selector on
+    cpanelOff	control panel off button  
+    cpanelOn 	control panel on button  
+    loopOff 		toolbar  button  
+    loopOn 		toolbar  button  
+    midiProcessor	toolbar button  
+    modeInsert 	toolbar  button 
+    modeStretch -	toolbar  button 
+    options 		toolbar  button 
+    paramBottom1	slider bottom margin,  quarter-note beat
+    paramBottom2 	slider bottom margin,  other beats
+    paramCellOff1 	note-off slider body  filler, quarter-note beat
+    paramCellOff2 	note-off slider body  filler, other beats
+    paramCellRem1 	note-on slider body  filler, quarter-note beat
+    paramCellRem2	note-on slider body  filler, other beats
+    paramCellVal1 	note-on slider 'thumb' filler, quarter-note beat
+    paramCellVal2	note-on slider 'thumb' filler, other beats
+    paramTop1 	slider top margin,  quarter-note beat
+    paramTop2 	slider top margin,  other beats
+    splitterH 	horz splitter
+    splitterV -	vert splitter
+    syncOff                        toolbar  button 
+    syncOn                        toolbar  button 
+    tbr 		toolbar body filler
+    tbrMenu		popup menu button
+
+Outline color value  of dialog controls is  "textColor"  from INI file with a dash of "backColor" 

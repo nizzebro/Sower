@@ -235,7 +235,10 @@ bool Editor::processExtensionLine(const char *line, ProjectStateContext *ctx, bo
     project.controlPanelPage = jlimit(0, 2, tok2i(&line)); 
   }
 
-  if ((project.flags & Project::kOpened) != 0) new Editor();
+  if ((project.flags & Project::kOpened) != 0) {
+    project.flags &= ~Project::kOpened;
+    new Editor();
+  }
 
   return true;
 }

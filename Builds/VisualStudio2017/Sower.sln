@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sower_DynamicLibrary", "Sower_DynamicLibrary.vcxproj", "{D743A322-6AA2-C101-1E71-835DC1E620A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release_free|Win32 = Release_free|Win32
+		Release_free|x64 = Release_free|x64
+		Release_free|x86 = Release_free|x86
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D743A322-6AA2-C101-1E71-835DC1E620A4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D743A322-6AA2-C101-1E71-835DC1E620A4}.Debug|Win32.Build.0 = Debug|Win32
+		{D743A322-6AA2-C101-1E71-835DC1E620A4}.Debug|x64.ActiveCfg = Debug|x64
+		{D743A322-6AA2-C101-1E71-835DC1E620A4}.Debug|x64.Build.0 = Debug|x64
+		{D743A322-6AA2-C101-1E71-835DC1E620A4}.Debug|x86.ActiveCfg = Debug|Win32
+		{D743A322-6AA2-C101-1E71-835DC1E620A4}.Debug|x86.Build.0 = Debug|Win32
+		{D743A322-6AA2-C101-1E71-835DC1E620A4}.Release_free|Win32.ActiveCfg = Release_free|Win32
+		{D743A322-6AA2-C101-1E71-835DC1E620A4}.Release_free|Win32.Build.0 = Release_free|Win32
+		{D743A322-6AA2-C101-1E71-835DC1E620A4}.Release_free|x64.ActiveCfg = Release_free|x64
+		{D743A322-6AA2-C101-1E71-835DC1E620A4}.Release_free|x64.Build.0 = Release_free|x64
+		{D743A322-6AA2-C101-1E71-835DC1E620A4}.Release_free|x86.ActiveCfg = Release_free|Win32
+		{D743A322-6AA2-C101-1E71-835DC1E620A4}.Release_free|x86.Build.0 = Release_free|Win32
+		{D743A322-6AA2-C101-1E71-835DC1E620A4}.Release|Win32.ActiveCfg = Release|Win32
+		{D743A322-6AA2-C101-1E71-835DC1E620A4}.Release|Win32.Build.0 = Release|Win32
+		{D743A322-6AA2-C101-1E71-835DC1E620A4}.Release|x64.ActiveCfg = Release|x64
+		{D743A322-6AA2-C101-1E71-835DC1E620A4}.Release|x64.Build.0 = Release|x64
+		{D743A322-6AA2-C101-1E71-835DC1E620A4}.Release|x86.ActiveCfg = Release|Win32
+		{D743A322-6AA2-C101-1E71-835DC1E620A4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A2D8631-FEFF-49AD-92D1-992717914858}
+	EndGlobalSection
+EndGlobal
