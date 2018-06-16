@@ -1,16 +1,25 @@
 # Blacklist all
 *
 
-# Whitelist 
+# Whitelist types / subdirs
 !.gitignore
 !README.md
+!*.jucer
+!*.h
+!*.cpp
+!*.mm
+!*.rc
+!*.vcxproj
+!*.sln
+!*.txt
 !*.odt
-!Source/*.h
-!Source/*.mm
-!Source/*.cpp
-!Source/Skin/*.png
-!Source/JuceLibraryCode/*.h
-!Source/JuceLibraryCode/*.cpp
-!Builds/VisualStudio2017/*.*
-!Builds/MacOSX/**/*
-!Setup/**/*
+!*.png
+!*.php
+!*.css
+!*.*htm
+!*.*html
+!Builds/MacOSX/*
+
+# Blacklist subdirs
+JuceLibraryCode\modules
+
